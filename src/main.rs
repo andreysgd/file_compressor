@@ -7,10 +7,6 @@ use std::time::Instant;
 use std::env::args;
 use std::fs::File;
 
-/* 
-use std::io::copy;
-use std::io::BufReader; */
-
 fn main() {
     // checking if user put three arguments
     // return error if true
