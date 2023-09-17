@@ -9,7 +9,7 @@ use std::fs::File;
 
 fn main() {
     // checking if user put three arguments
-    // return error if true
+    // return instructions if true
     if args().len() != 3 {
         eprintln!("Usage: `run` `source file` `target file`");
         return;
